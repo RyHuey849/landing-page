@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     background: #1F2937;
     display: flex;
@@ -71,6 +75,7 @@ button {
 
 .content {
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .info {
@@ -88,24 +93,68 @@ button {
     
 }
 
-.cards img{
-    width: 200px;
+.card-content{
+    height: 225px;
+    border: 12px solid;
     margin: 5px 20px 0px 20px;
-    border-radius: 15px;;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-text p{
+    flex-wrap: wrap;
+    text-align: center;
+    color: black;
 }
 
 
 
 .quote {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    flex-wrap: wrap;
-    max-width: 500px;
-
+    background-color: #E5E7EB;
+    padding: 192px 162px 92px;
 }
 
-.quote-content{
+.quote-content p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+}
 
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 13em;
+}
+
+.cta-content{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sign-up {
+    border: 2px solid;
+}
+
+strong {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #fff;
 }
